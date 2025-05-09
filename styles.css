@@ -1,7 +1,22 @@
+html {
+    font-family: roboto, Arial, Helvetica;
+}
+
+body {
+    margin: 0px;
+
+}
+
 .header, .hero, .footer {
     background-color: #1F2937;
 }
 
 .communication {
     background-color: white;
+}
+
+.header-logo p {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0;
 }
