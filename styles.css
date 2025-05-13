@@ -4,7 +4,70 @@ html {
 
 body {
     margin: 0px;
+}
 
+button {
+    background-color: #3882F6;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-links {
+    flex: 1;
+    display: flex;
+    gap: 12px;
+    justify-content: right;
+}
+
+.header-logo {
+    flex: 1;
+}
+
+.header ul {
+    list-style: none;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    gap: 20px;
+}
+
+.hero-text {
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.hero-image {
+    flex: 1;
+    background-color: gray;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .header, .hero, .footer {
@@ -18,5 +81,4 @@ body {
 .header-logo p {
     font-size: 24px;
     color: #f9faf8;
-    margin: 0;
 }
